@@ -1,0 +1,52 @@
+{
+    "controlador.lista.LinkedList": {
+        "head": {
+            "data": {
+                "@class": "Modelo.Censo",
+                "id": 1,
+                "nombre": "ewfwe",
+                "motivo": "erferf",
+                "fecha": "ferf",
+                "estadoEmocional": "erfe",
+                "estado_civil": "divorciado"
+            },
+            "next": {
+                "data": {
+                    "@class": "Modelo.Censo",
+                    "id": 2,
+                    "nombre": "rgeg",
+                    "motivo": "ergerg",
+                    "fecha": "ergeg",
+                    "estadoEmocional": "ergerg",
+                    "estado_civil": "divorciado"
+                },
+                "next": {
+                    "data": {
+                        "@class": "Modelo.Censo",
+                        "id": 3,
+                        "nombre": "regreg",
+                        "motivo": "ergeg",
+                        "fecha": "ergeg",
+                        "estadoEmocional": "ergeg",
+                        "estado_civil": "separado"
+                    },
+                    "next": {
+                        "data": {
+                            "@class": "Modelo.Censo",
+                            "id": 4,
+                            "nombre": "ewfwe",
+                            "motivo": "rtbrb",
+                            "fecha": "ferf",
+                            "estadoEmocional": "erfe",
+                            "estado_civil": "separado"
+                        }
+                    }
+                }
+            }
+        },
+        "last": {
+            "@reference": "..\/head\/next\/next\/next"
+        },
+        "size": 4
+    }
+}

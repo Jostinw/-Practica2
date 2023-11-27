@@ -1,0 +1,32 @@
+{
+    "controlador.lista.LinkedList": {
+        "head": {
+            "data": {
+                "@class": "Modelo.Censador",
+                "id": 1
+            },
+            "next": {
+                "data": {
+                    "@class": "Modelo.Censador",
+                    "id": 2,
+                    "nombre": "ergerg",
+                    "edad": 25,
+                    "telefono": 25
+                },
+                "next": {
+                    "data": {
+                        "@class": "Modelo.Censador",
+                        "id": 3,
+                        "nombre": "rtrbtb",
+                        "edad": 25,
+                        "telefono": 285
+                    }
+                }
+            }
+        },
+        "last": {
+            "@reference": "..\/head\/next\/next"
+        },
+        "size": 3
+    }
+}
